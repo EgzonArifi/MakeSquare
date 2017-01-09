@@ -19,7 +19,12 @@ namespace SquareString
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            RepeatString repeatString = new RepeatString();
+            int result = repeatString.minimalModify(inputTextBox.Text);
+            if (!String.IsNullOrEmpty(result.ToString()))
+            {
+                MessageBox.Show("Rezultati: " + result);
+            }
         }
     }
 }
