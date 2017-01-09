@@ -1,6 +1,5 @@
 # MakeSquare
 Make Square by dynamic programing
-Problem No 1 Statement
 
 A string S is called a square if there is some string T such that S = T + T. For example, the strings &quot;&quot;,
 
