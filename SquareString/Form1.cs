@@ -21,7 +21,7 @@ namespace SquareString
         {
             RepeatString repeatString = new RepeatString();
             int result = repeatString.minimalModify(inputTextBox.Text);
-            if (!String.IsNullOrEmpty(result.ToString()))
+            if (!string.IsNullOrEmpty(result.ToString()))
             {
                 MessageBox.Show("Rezultati: " + result);
             }
