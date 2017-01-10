@@ -22,7 +22,7 @@ namespace SquareString
             if (inputTextBox.Text.Length > 0)
             {
             RepeatString repeatString = new RepeatString();
-            int result = repeatString.minimalModify(inputTextBox.Text);
+            int result = repeatString.myMinimalModify(inputTextBox.Text);
                 MessageBox.Show("Rezultati: " + result);
             }
             else
